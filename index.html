@@ -29,10 +29,12 @@
             font-size: 18px;
             color: green;
         }
+        h5 {color: red;}
     </style>
 </head>
 <body>
     <h1>Subjective Answer Scorer</h1>
+    
     <form id="scoringForm">
         <label for="question">Question:</label>
         <textarea id="question" placeholder="Enter your question here..."></textarea>
@@ -45,8 +47,9 @@
 
         <button type="button" onclick="evaluateAnswer()">Evaluate Answer</button>
     </form>
+ <h5> About 30% kye match is 100% score: </h5>
 
-    <div id="result" class="result"></div>
+    <div id="result" class="result"></div> <span> - Matched <span/>
 
     <script src="script.js"></script>
 </body>
