@@ -1,3 +1,9 @@
+/*
+  Author: Smurti
+  App: Smart SubjectEval
+  Date: 2025
+*/
+
 // Function to calculate similarity percentage
 function calculateSimilarity(correctAnswer, userAnswer) {
     const correctWords = correctAnswer.toLowerCase().split(" ");
